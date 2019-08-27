@@ -1,6 +1,7 @@
 ﻿html{
     overflow-x: hidden;
     background: #f2f2f2;
+
 }
 body{
     width: 90%;
@@ -364,13 +365,16 @@ body{
         background-repeat: no-repeat;
     }
     .sedona-sorting-service{
-        width: 90%;
+        width: 100%;
+        height: 540px;
         background: url("image/background-hotel.jpg");
-        background-repeat: repeat;
         display: block;
-        margin-top: ;
-        padding-top: 32px;
+        padding-top: 20px;
         padding-left: 71px;
+    }
+    .form-first{
+        width: 170px;
+        margin-right: 90px;
     }
     .form-h2{
         font-size: 16px;
@@ -385,7 +389,7 @@ body{
     }
     input[type="checkbox"] + label{
         display: block;
-        margin: 25px 0;
+        margin: 20px 0;
         line-height: 21px;
         position: relative;
         padding-left: 45px;
@@ -419,7 +423,9 @@ body{
         left: 13px;
     }
     .form-second{
-        margin-top: 70px;
+        margin-top: 35px;
+        margin-right: 250px;
+        width: 170px;
     }
     .prices-controls-h2{
         font-family: "PT Sans";
@@ -427,6 +433,9 @@ body{
         line-height: 21px;
         text-transform: uppercase;
         color: #fff;
+    }
+    .form3{
+        margin-top: -40px;
     }
     .price-controls input{
         border: 2px solid #fff;
@@ -436,14 +445,13 @@ body{
         display: flex;
         text-align: center;
         color: #fff;
-        margin-top: 20px;
+        margin-top: 17px;
     }
     .price-controls-input{
-
         display: flex;
     }
     .price-controls{
-        margin-top: 90px;
+        margin-top: 70px;
         margin-left: -60px;
     }
     .range-filter{
@@ -451,8 +459,8 @@ body{
     }
     .range-controls{
         position: relative;
-        height: 80px;
-        margin-bottom: 15px;
+        height: 110px;
+        margin-bottom: 5px;
         padding: 0 20px;
         margin-left: -70px;
         border-radius: 5px;
@@ -482,6 +490,238 @@ body{
     }
     .range-controls .max-toggle{
         left: 145px;
+    }
+    .price-show{
+        width: 134px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border: 2px solid #fff;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: top;
+        cursor: pointer;
+    }
+    .body{
+        background: #fefefe;
+    }
+    .sorting-home{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .sorting-home-oll{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .looking-new{
+        font-family: "PT Sans";
+        font-size: 21px;
+        line-height: 26px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .sorting-price-type-top{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 35px;
+        border: 1px solid #e5e5e5;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
+    .sortingH2{
+        font-family: "PT Sans";
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+    .sorting-price-type-top ul{
+        text-decoration: none;
+        list-style: none;
+    }
+    .sorting-price-type-top li{
+        width: 75px;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 20px;
+        font-family: "PT Sans";
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: uppercase;
+        border:  1px dotted #000;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        cursor: pointer;
+    }
+    .sorting-price-type-top li:hover{
+        color: #81b3d2;
+        border: none;
+    }
+    .arrow{
+        position: relative;
+        width: 40px;
+        height: 20px;
+        top: 13px;
+        margin-left: 30px;
+    }
+    .arrow::before{
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 10px;
+        margin-left: 3px;
+        margin-top: 5px;
+        cursor: pointer;
+        background: url("image/arrow-up.png");
+        background-repeat: no-repeat;
+    }
+    .arrow::after{
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 10px;
+        margin-left: 24px;
+        margin-top: 5px;
+        cursor: pointer;
+        background: url("image/arrow-down.png");
+        background-repeat: no-repeat;
+    }
+    .advertising-home-oll{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 5px;
+        border: 1px solid #e5e5e5;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
+    .advertising-home1{
+        width: 320px;
+        margin-bottom: 70px;
+        padding-bottom: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid #e5e5e5;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .home-img{
+        width: 320px;
+        margin-right: 30px;
+    }
+    .home-img img{
+        width: 135px;
+        margin-left: 50px;
+    }
+    .home-name-price{
+        width: 260px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home-name-price h2{
+        width: 220px;
+        font-family: "PT Sans";
+        font-size: 21px;
+        margin-left: -30px;
+        line-height: 26px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .name-price{
+        width: 190px;
+        display: flex;
+        margin-left: -30px;
+        justify-content: space-between;
+        margin-bottom: 17px;
+    }
+    .name{
+        font-family: "PT Sans";
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .price{
+        font-family: "PT Sans";
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .home-about-bye{
+        display: flex;
+        width: 100%;
+        margin-left: -40px;
+        justify-content: space-between;
+    }
+    .home-about-btn{
+        padding: 5px 16px;
+        font-family: "PT Sans";
+        font-size: 14px;
+        margin-right: 5px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #fff;
+        background: #81b3d2;
+    }
+    .home-dye-btn{
+        padding: 5px 16px;
+        font-family: "PT Sans";
+        font-size: 14px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #fff;
+        background: #81b3d2;
+    }
+    .home1-popular{
+        width: 220px;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .star-popular{
+        position: relative;
+    }
+    .star-popular span{
+        position: relative;
+        padding: 5px 15px;
+        border: 1px solid #f2f2f2;
+        background: #f2f2f2;
+    }
+    .home1-star::after{
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 19px;
+        margin-left: -100px;
+        margin-top: -30px;
+        background: url("image/star4.png");
+        background-repeat: no-repeat;
+    }
+    .home2-star::after{
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 19px;
+        margin-left: -100px;
+        margin-top: -30px;
+        background: url("image/star3.png");
+        background-repeat: no-repeat;
+    }
+    .home3-star::after{
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 19px;
+        margin-left: -100px;
+        margin-top: -30px;
+        background: url("image/star2.png");
+        background-repeat: no-repeat;
     }
 }
 @media(min-width: 480px){
@@ -523,6 +763,20 @@ body{
     .footer-soc{
         margin-top: -25px;
     }
+    .sorting-price-type-top{
+        width: 100%;
+    }
+    .sorting-price-type-top ul{
+        width: 90%;
+        display: inline-block;
+    }
+    .sorting-price-type-top li{
+        display: inline-block;
+        margin-right: 32px;
+    }
+    .sorting-price-type-top li:nth-child(3n){
+        margin-right: 0;
+    }
 }
 @media(min-width: 768px){
     header{
@@ -552,7 +806,6 @@ body{
         font-size: 0;
         left: 260px;
         margin-top: -75px;
-
     }
     .sedona-img{
         width: 100%;
@@ -591,13 +844,45 @@ body{
     }
     .plus-sedona-img img{
         width: 768px;
-
     }
     .map{
         width: 768px;
     }
     .map img{
         width: inherit;
+    }
+    .sedona-sorting-service{
+        width: 100%;
+        margin-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-second{
+        margin-top: -1px;
+    }
+    .sorting-price-type-top{
+        display: flex;
+    }
+    .sortingH2{
+        margin-top: 35px;
+    }
+    .arrow{
+        top: 35px;
+    }
+    .advertising-home1{
+        display: flex;
+        display: -webkit-box;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .home-name-price{
+        margin-top: -30px;
+    }
+    .advertising-home1:nth-child(3n){
+        border: none;
+    }
+    .home1-popular{
+        margin-left: -470px;
     }
 }
 @media(min-width: 992px){
@@ -711,6 +996,33 @@ body{
     .map img{
         width: inherit;
     }
+    .form-second{
+        margin-right: 150px;
+    }
+    .form3{
+        margin-top: -65px;
+    }
+    .body{
+        margin-top: -320px;
+    }
+    .sorting-home{
+        padding-top: 15px;
+
+    }
+    .sorting-home-oll{
+        display: flex;
+        display: -webkit-box;
+    }
+    .sorting-price-type-top{
+        margin-top: -30px;
+        margin-left: 20px;
+    }
+    .arrow{
+        margin-left: -250px;
+    }
+    .home1-popular{
+        margin-left: 50px;
+    }
 }
 @media(min-width: 1024px){
     .sedona{
@@ -739,5 +1051,17 @@ body{
     .photo-logo::after{
         margin-left: 250px;
         margin-top: 0px;
+    }
+    .sedona-sorting-service{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+    }
+    .form-second{
+        margin-right: 350px;
+    }
+    .home1-popular{
+        margin-left: 400px;
     }
 }
